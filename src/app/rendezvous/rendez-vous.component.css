@@ -1,0 +1,12 @@
+table {
+  width: 80%;
+  margin: 16px 8px;
+}
+
+button {
+  margin: 16px 8px;
+}
+
+#labelTitre {
+  color: crimson;
+}
