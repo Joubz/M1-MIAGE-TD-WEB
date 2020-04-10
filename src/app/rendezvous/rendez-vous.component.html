@@ -3,7 +3,7 @@
 
 <button mat-raised-button (click)="openDialog()"> Ajouter rdv </button>
 <button mat-raised-button [disabled]="tabRDV.data.length == 0" (click)="deleteRDV(1)"> Supprimer un rdv </button>
-<button mat-raised-button (click)="updateRDV()"> Modifier un rdv </button>
+<button mat-raised-button [disabled]="true" (click)="updateRDV()"> Modifier un rdv </button>
 
 <table mat-table [dataSource]="tabRDV" class="mat-elevation-z8">
 
