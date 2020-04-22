@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<rendez-vous>
+  <name>
+    Rendez vous 1
+  </name>
+  <mail>
+    Mail 1
+  </mail>
+  <type>
+    Medecin
+  </type>
+  <date>
+    05/04/2020
+  </date>
+
+</rendez-vous>

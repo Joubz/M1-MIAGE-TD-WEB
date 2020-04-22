@@ -1,4 +1,5 @@
 export class RendezVous {
+  id: number;
   name: string;
   mail: string;
   type: string;

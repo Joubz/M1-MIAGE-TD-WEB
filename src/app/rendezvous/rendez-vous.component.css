@@ -1,6 +1,14 @@
 table {
-  width: 80%;
-  margin: 16px 8px;
+  width: 99%;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+mat-paginator {
+  width: 99%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 button {

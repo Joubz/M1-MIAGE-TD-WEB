@@ -14,6 +14,7 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatIconModule} from '@angular/material/icon';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import {MatRadioModule} from '@angular/material/radio';
     MatSelectModule,
     MatIconModule,
     ReactiveFormsModule,
-    MatRadioModule
+    MatRadioModule,
+    MatPaginatorModule
   ],
   providers: [MatDatepickerModule],
   bootstrap: [AppComponent]
