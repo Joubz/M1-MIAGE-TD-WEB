@@ -1,17 +1,15 @@
-<?xml version="1.0"?>
-
-<rendez-vous>
-  <name>
-    Rendez vous 1
-  </name>
-  <mail>
-    Mail 1
-  </mail>
-  <type>
-    Medecin
-  </type>
-  <date>
-    05/04/2020
-  </date>
-
-</rendez-vous>
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+<listRDV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="td4.xsd">
+  <rendez-vous id="0">
+    <name>Nathan Joubert</name>
+    <email>nathan.joubert@gmail.com</email>
+    <type>Entretien</type>
+    <date>2020-03-26</date>
+  </rendez-vous>
+  <rendez-vous id="1">
+    <name>Allan Mendjeli</name>
+    <email>allan.@gmail.com</email>
+    <type>Medecin</type>
+    <date>2020-04-13</date>
+  </rendez-vous>
+</listRDV>
